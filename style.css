@@ -1,0 +1,148 @@
+section.main {
+    background-image: url(banner.png);
+    height: 625px;
+    background-repeat: no-repeat;
+}
+
+section.login_sec {
+    background-image: url(banner1.png);
+    height: 625px;
+    background-repeat: no-repeat;
+}
+
+.logo img {
+    top: 85px;
+    position: relative;
+    left: 35px;
+}
+
+.welcome {
+    position: relative;
+    top: 120px;
+    left: 45px;
+}
+
+.welcome h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #404040;
+}
+
+.welcome p {
+    color: #ac151f;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.login {
+    position: relative;
+    top: 170px;
+    left: 45px;
+}
+
+.login p:first-child {
+    color: #981019;
+}
+
+.login .btn {
+    background: #a8141e;
+    padding: 8px 50px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+p.copyright {
+    color: #949494;
+    margin-top: 10px
+}
+
+.header {
+    position: relative;
+    top: 75px;
+    left: 45px;
+}
+
+.header h1 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #404040;
+}
+
+.header p {
+    color: #ac151f;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: -13px;
+}
+
+.login_form {
+    position: relative;
+    top: 65px;
+    left: 45px;
+}
+
+.login_form input {
+    width: 50%;
+}
+
+.login_form label {
+    color: #900f17;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.login_form .btn {
+    background: #9f121b;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.col-sm-6.head {
+    display: contents;
+    width: 100%;
+}
+
+.head img {
+    top: 15px;
+    position: relative;
+    left: 35px;
+}
+
+.head .header {
+    position: relative;
+    top: 25px;
+    left: 45px;
+}
+
+.icon {
+    position: relative;
+    top: 30px;
+}
+
+.icon p {
+    color: #ab141f;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.icon p a {
+    color: #ab141f;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.icon .row {
+    margin-bottom: 50px;
+}
+
+p.copy {
+    text-align: right;
+    color: #808080;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
