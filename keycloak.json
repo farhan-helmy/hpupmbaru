@@ -1,8 +1,8 @@
 {
-    "realm": "MainSSORealm",
-    "auth-server-url": "http://10.150.236.115:8080/auth/",
-    "ssl-required": "external",
-    "resource": "newhospital",
-    "public-client": true,
-    "confidential-port": 0
-  }
+  "realm": "TestingRealm",
+  "auth-server-url": "http://localhost:8080/auth/",
+  "ssl-required": "external",
+  "resource": "hpupmnew",
+  "public-client": true,
+  "confidential-port": 0
+}

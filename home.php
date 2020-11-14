@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>UPM</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="http://10.150.236.115:8080/auth/js/keycloak.js"></script>
+<script src="http://localhost:8080/auth/js/keycloak.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="jwt-decode.min.js"></script>
@@ -33,7 +33,7 @@
                            
                         </div>
                         <div class="lgt">
-                        	  <button type="button" class="btn btn-dark" onclick="keycloak.logout({'redirectUri':'http://10.150.236.116/hpupmnew/'})">LOGOUT</button>
+                        	  <button type="button" class="btn btn-dark" onclick="keycloak.logout({'redirectUri':'http://localhost/hpupmnew/'})">LOGOUT</button>
                         </div>
                             </div>
                         </div>
@@ -57,8 +57,9 @@
                     if (keycloak.profile) {                                           
                         var token = keycloak.token;                        
                         var decoded = jwt_decode(token);                        
-                        var groups = decoded.groups;
+                        var groups = decoded.group;
                         console.log(decoded);
+                        console.log(groups);
                      
                         if(groups.length > 0){
                         	$.ajax({
